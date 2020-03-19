@@ -5,29 +5,54 @@
       <router-link to="/about">About</router-link>
     </div>
     <router-view/> -->
-    Building seomting awesome.. Stay Tuned!!!!
+    <sidebar></sidebar>
+    <body-content></body-content>
   </div>
 </template>
 
+<script>
+import sidebar from '@/components/sidebar'
+import bodyContent from '@/components/content'
+export default {
+  components: {
+    sidebar,
+    bodyContent
+  },
+}
+</script>
+
 <style lang="scss">
-#app {
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+html, body {
+  background-color: #e5e4ea;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  margin: 0;
+  line-height: 1.4;
 }
 
-#nav {
-  padding: 30px;
+#app {
+  background-color: #fff;
+  display: flex;
+  min-height: 100vh;
+  margin: 50px auto;
+  max-width: 960px;
+  overflow: hidden;
+  border-radius: 10px;
+}
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.label {
+  font-family: 'Roboto Condensed', sans-serif;
+}
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+.label {
+  font-size: 18px;
 }
 </style>
