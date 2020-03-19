@@ -5,7 +5,7 @@
       <router-link to="/about">About</router-link>
     </div>
     <router-view/> -->
-    Working on something awesome. Stay Tuned
+    Building seomting awesome.. Stay Tuned!!!!
   </div>
 </template>
 
