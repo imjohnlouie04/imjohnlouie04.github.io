@@ -8,6 +8,7 @@
     <vue-headful
         title="John Louie Binas | Building Awesoness"
         description="I'm a Front End UI Designer who's knowledgeable and experienced in working with UX Designers and an enthusiast photographer"
+        :image="$store.state.userImage"
     />
     <sidebar></sidebar>
     <body-content></body-content>

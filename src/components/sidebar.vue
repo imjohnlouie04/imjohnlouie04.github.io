@@ -4,9 +4,9 @@
       <img :src="$store.state.userImage" alt="">
     </div>
     <about></about>
-    <social :data="$store.state.social"></social>
-    <education :data="$store.state.education"></education>
     <skills :data="$store.state.skills"></skills>
+    <education :data="$store.state.education"></education>
+    <social :data="$store.state.social"></social>
   </div>
 </template>
 
