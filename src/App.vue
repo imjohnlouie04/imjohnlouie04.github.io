@@ -5,6 +5,10 @@
       <router-link to="/about">About</router-link>
     </div>
     <router-view/> -->
+    <vue-headful
+        title="John Louie Binas | Building Awesoness"
+        description="I'm a Front End UI Designer who's knowledgeable and experienced in working with UX Designers and an enthusiast photographer"
+    />
     <sidebar></sidebar>
     <body-content></body-content>
   </div>
@@ -14,16 +18,6 @@
 import sidebar from '@/components/sidebar'
 import bodyContent from '@/components/content'
 export default {
-  metaInfo: {
-    // if no subcomponents specify a metaInfo.title, this title will be used
-    title: 'John Louie Binas',
-    // all titles will be injected into this template
-    titleTemplate: '%s | Resume',
-    meta: [{
-      name: 'description',
-      content: "I'm a Front End UI Designer who's knowledgeable and experienced in working with UX Designers and an enthusiast photographer"
-    }],
-  },
   components: {
     sidebar,
     bodyContent
