@@ -32,6 +32,7 @@ $class: '.skills';
   padding: $padding 0;
   list-style: none;
   margin: 0;
+  border-bottom: 1px solid #fff;
 
   li {
     margin-bottom: 10px;
