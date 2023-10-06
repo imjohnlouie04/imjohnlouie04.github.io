@@ -22,8 +22,8 @@ export default new Vuex.Store({
       {
         company: "Outliant",
         position: "VueJS | TailwindCSS | F/E UI",
-        yearStart: "August 2022",
-        yearEnd: "Present",
+        yearStart: "August 2020",
+        yearEnd: "October 2023",
         location: "Barton Springs, Austin, TX 78704, United States",
       },
       {
