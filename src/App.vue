@@ -1,14 +1,9 @@
 <template>
   <div id="app">
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/> -->
     <vue-headful
-        title="John Louie Binas | Building Awesoness"
-        description="I'm a Front End UI Designer who's knowledgeable and experienced in working with UX Designers and an enthusiast photographer"
-        :image="$store.state.userImage"
+      title="John Louie Binas | Building Awesoness"
+      description="I'm a Front End UI Designer who's knowledgeable and experienced in working with UX Designers and an enthusiast photographer"
+      :image="$store.state.userImage"
     />
     <sidebar></sidebar>
     <body-content></body-content>
@@ -16,19 +11,20 @@
 </template>
 
 <script>
-import sidebar from '@/components/sidebar'
-import bodyContent from '@/components/content'
+import sidebar from "@/components/sidebar";
+import bodyContent from "@/components/content";
 export default {
   components: {
     sidebar,
-    bodyContent
+    bodyContent,
   },
-}
+};
 </script>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
-html, body {
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
+html,
+body {
   background-color: #e5e4ea;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -54,7 +50,7 @@ h4,
 h5,
 h6,
 .label {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .label {
